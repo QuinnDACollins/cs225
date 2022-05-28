@@ -1,0 +1,27 @@
+==1839== Memcheck, a memory error detector
+==1839== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1839== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==1839== Command: ./allocate
+==1839== 
+==1839== error calling PR_SET_PTRACER, vgdb might block
+
+Room Allocation (237/248)
+MEB 153 (31/32): W F
+MEB 218 (30/31): L H
+MEB 243 (29/30): S P Q
+MEB 335 (28/30): K R U V
+Siebel 1105 (24/24): G A X
+Siebel 1109 (23/24): M J I
+Siebel 1302 (20/21): Z N O
+Siebel 1304 (19/21): B D E
+BUR 140 (33/35): C Y T
+
+==1839== 
+==1839== HEAP SUMMARY:
+==1839==     in use at exit: 0 bytes in 0 blocks
+==1839==   total heap usage: 658 allocs, 658 frees, 66,896 bytes allocated
+==1839== 
+==1839== All heap blocks were freed -- no leaks are possible
+==1839== 
+==1839== For counts of detected and suppressed errors, rerun with: -v
+==1839== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
